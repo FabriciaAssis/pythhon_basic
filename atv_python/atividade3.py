@@ -1,5 +1,5 @@
-def main():
-  numero = input('Digite um número por favor: ')
-  print(numero)
+def init():
+  number = input('Digite um número por favor: ')
+  print(number)
 
-main()
+init()

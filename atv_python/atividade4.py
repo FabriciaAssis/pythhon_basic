@@ -1,6 +1,6 @@
-def main():
-  numero = input('Digite um número: ')
-  numero_tratado = float(numero)
-  print(numero_tratado, type(numero_tratado))
+def init():
+  num = input('Digite um número: ')
+  num_chose = float(num)
+  print(num_chose, type(num_chose))
 
-main()
+init()

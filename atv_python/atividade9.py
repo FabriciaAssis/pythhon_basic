@@ -1,4 +1,4 @@
-def main():
+def init():
   valor1 = 71
   valor2 = 78
 
@@ -12,4 +12,4 @@ def main():
     print('O valor1 é menor ou igual o valor2!')
   if (valor1 != valor2):
     print('O valor1 é diferente do valor2!')
-main()
+init()

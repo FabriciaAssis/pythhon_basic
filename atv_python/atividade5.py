@@ -1,6 +1,6 @@
-def main():
-  numero1 = 327
-  numero2 = 138
-  print(numero1 + numero2)
+def init():
+  num1 = 327
+  num2 = 138
+  print(num1 + num2)
 
-main()
+init()

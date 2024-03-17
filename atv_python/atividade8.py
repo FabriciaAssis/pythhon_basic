@@ -1,12 +1,12 @@
-def main():
-  numero = input('Digite um número de dois dígitos: ')
-  numeros_separados = [int(i) for i in str(numero)]
+def init():
+  num = input('Digite um número de dois dígitos: ')
+  num_separete = [int(i) for i in str(num)]
 
-  numeros_soma = numeros_separados[0] + numeros_separados[1]
-  numeros_sub = numeros_separados[0] - numeros_separados[1]
-  numeros_multi = numeros_separados[0] * numeros_separados[1]
-  numeros_divi = numeros_separados[0] / numeros_separados[1]
+  num_add = num_separete[0] + num_separete[1]
+  num_sub = num_separete[0] - num_separete[1]
+  num_multi = num_separete[0] * num_separete[1]
+  num_divi = num_separete[0] / num_separete[1]
 
-  print(numeros_soma, numeros_sub, numeros_multi, int(numeros_divi))
+  print(num_add, num_sub, num_multi, int(num_divi))
 
-main()
+init()

@@ -1,7 +1,7 @@
-def main():
-  numero = input('Digite um número: ')
-  potencia = 4
-  numero_tratado = int(numero)
-  print((numero_tratado  ** potencia) + numero_tratado)
+def init():
+  num = input('Digite um número: ')
+  power = 4
+  num_chose = int(num)
+  print((num_chose  ** power) + num_chose)
 
-main()
+init()
