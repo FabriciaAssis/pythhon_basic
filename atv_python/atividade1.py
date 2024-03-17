@@ -1,4 +1,4 @@
-def main():
+def init():
   print('Olá Mundo!!!')
 
-main()
+init()
